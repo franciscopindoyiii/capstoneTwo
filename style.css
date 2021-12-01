@@ -1,0 +1,173 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.lobster {
+	font-family: 'Lobster', cursive;
+}
+
+.libreBaskerville {
+	font-family: 'Libre Baskerville', serif;
+}
+
+.abrilFatface {
+	font-family: 'Abril Fatface', cursive;
+}
+
+.letterBorder {
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: 0.5px;
+}
+
+.letterColor {
+	color: #0292a8;
+}
+
+.borderBox {
+	border-width: 5px;
+	border-color: #0292a8;
+	border-style: solid;
+}
+
+/* Navigation Bar Start */
+.myNav {
+	background-color: #0292a8;
+}
+.myNavFont {
+	color: black;
+	font-weight: bold;
+}
+
+.navbar-toggler-icon {
+	background-color: #bfe1ff;
+}
+
+.navbar-toggler {
+	background-color: black;
+}
+/* Navigation Bar End */
+
+@media (min-width: 320px) {
+
+	#mainHeader {
+		font-family: 'Lobster', cursive;
+		font-size: 300%;
+		color: #0292a8;
+		background-color: #111212;
+	}
+
+	.subheader {
+		width: 200px;
+		margin: auto;
+		display: block;
+	}
+}
+
+@media (min-width: 375px) and (min-height: 667px) {
+
+	#mainHeader {
+		font-family: 'Lobster', cursive;
+		font-size: 300%;
+		color: #0292a8;
+		background-color: #111212;
+	}
+
+	.subheader {
+		width: 250px;
+		margin: auto;
+		display: block;
+	}
+
+}
+
+@media (min-width: 414px) {
+
+	#mainHeader {
+		font-family: 'Lobster', cursive;
+		font-size: 300%;
+		color: #0292a8;
+		background-color: #111212;
+	}
+
+	.subheader {
+		width: 325px;
+		margin: auto;
+		display: block;
+	}
+
+}
+
+@media (min-width: 375px) and (min-height: 812px) {
+
+	#mainHeader {
+		font-family: 'Lobster', cursive;
+		font-size: 300%;
+		color: #0292a8;
+		background-color: #111212;
+	}
+
+	.subheader {
+		width: 250px;
+		margin: auto;
+		display: block;
+	}
+}
+
+@media (min-width: 768px) {
+
+	#mainHeader {
+		font-family: 'Lobster', cursive;
+		font-size: 500%;
+		color: #0292a8;
+		background-color: #111212;
+	}
+
+	.subheader {
+		width: 600px;
+		margin: auto;
+		display: block;
+	}
+}
+
+@media (min-width: 1024px) {
+
+	#mainHeader {
+		font-family: 'Lobster', cursive;
+		font-size: 500%;
+		color: #0292a8;
+		background-color: #111212;
+	}
+
+	.subheader {
+		width: 750px;
+		margin: auto;
+		display: block;
+	}
+}
+
+@media (min-width: 1025px) {
+
+	#mainHeader {
+		font-family: 'Lobster', cursive;
+		font-size: 500%;
+		color: #0292a8;
+		background-color: #111212;
+	}
+
+	.cardPics {
+		height: 550px;
+		width: 750px;
+	}
+
+	.subheader {
+		width: 750px;
+		margin: auto;
+		display: block;
+	}
+}
